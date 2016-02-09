@@ -1,0 +1,102 @@
+body,html{
+    font: 90% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+    background-color: #7777DB;
+}
+#header {
+    width: 100%;
+    min-height: 85px;
+    background-color: #FCF658;
+}
+
+#header img{
+    width: 60px;
+    height:auto;
+    margin:5px 5px 5px 15px;
+    float:left
+} 
+
+#header h2,h3,h4{
+    margin-bottom:0px;
+    margin-top:7px;
+    padding:0px;
+}
+#content{
+    height:100%;
+}
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li {
+  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#menu a {
+  color: #fff;
+  display: block;
+  margin: 0;
+  padding: 24px;
+  text-decoration: none;
+  font-weight: normal;
+}
+#menu a:hover {
+  background: #3B668E url("../images/back1.png") right center no-repeat;
+  color: #fff;
+  padding-bottom: 24px;
+  padding-right: 0px;
+}
+.menu_aktif{
+  background: #3B668E url("../images/back1.png") right center no-repeat;
+  color: #fff;
+  padding-bottom: 24px;
+  padding-right: 0px;
+}
+#isi{
+    padding:20px;
+    background-color: #D0D3D7;
+    min-height: 532px;
+    float:left;
+}
+
+#pagination li{
+    list-style: none;
+}
+#pagination li a{
+    padding: 10px;margin: 2px;
+    text-decoration: none;
+    background: orange;
+    color: white;
+    float:left;
+}
+#pagination li a:hover{
+    padding: 10px;margin: 2px;
+    text-decoration: none;
+    background: orangered;
+    color: white;
+    float:left;
+}
+#pagination li strong{
+    padding: 10px;margin: 2px;
+    background: orange;
+    float:left;
+}
+
+.footer{
+    background-color: #534E4E;
+    padding:10px;
+    color:white;
+}
+
+
+//========================= Cetak Laporan
+
+.modal-dialog{
+    z-index:100000000000000000 !important;
+}
+
+.datepicker {
+    z-index:10000000000000000000000000000 !important;
+}
